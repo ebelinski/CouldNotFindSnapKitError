@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017DDE2486DA6E561A7B04F5 /* Pods_CouldNotFindSnapKitError.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DFFFA7B3CC4BF26CD8B80D /* Pods_CouldNotFindSnapKitError.framework */; };
+		24E6705527133D44008DBB45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6705427133D44008DBB45 /* AppDelegate.swift */; };
+		24E6705727133D44008DBB45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6705627133D44008DBB45 /* SceneDelegate.swift */; };
+		24E6705927133D44008DBB45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6705827133D44008DBB45 /* ViewController.swift */; };
+		24E6705C27133D44008DBB45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E6705A27133D44008DBB45 /* Main.storyboard */; };
+		24E6705E27133D45008DBB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E6705D27133D45008DBB45 /* Assets.xcassets */; };
+		24E6706127133D45008DBB45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E6705F27133D45008DBB45 /* LaunchScreen.storyboard */; };
+		24E6706A27133D6B008DBB45 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 24E6706927133D6B008DBB45 /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24E6705127133D44008DBB45 /* CouldNotFindSnapKitError.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouldNotFindSnapKitError.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E6705427133D44008DBB45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24E6705627133D44008DBB45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24E6705827133D44008DBB45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24E6705B27133D44008DBB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24E6705D27133D45008DBB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24E6706027133D45008DBB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24E6706227133D45008DBB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DFFFA7B3CC4BF26CD8B80D /* Pods_CouldNotFindSnapKitError.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CouldNotFindSnapKitError.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D13641F7E28CE7F4B1C374 /* Pods-CouldNotFindSnapKitError.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouldNotFindSnapKitError.release.xcconfig"; path = "Target Support Files/Pods-CouldNotFindSnapKitError/Pods-CouldNotFindSnapKitError.release.xcconfig"; sourceTree = "<group>"; };
+		FAD245A6BBE1F0CFBEC9D198 /* Pods-CouldNotFindSnapKitError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouldNotFindSnapKitError.debug.xcconfig"; path = "Target Support Files/Pods-CouldNotFindSnapKitError/Pods-CouldNotFindSnapKitError.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E6704E27133D44008DBB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E6706A27133D6B008DBB45 /* SnapKit in Frameworks */,
+				017DDE2486DA6E561A7B04F5 /* Pods_CouldNotFindSnapKitError.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E6704827133D44008DBB45 = {
+			isa = PBXGroup;
+			children = (
+				24E6705327133D44008DBB45 /* CouldNotFindSnapKitError */,
+				24E6705227133D44008DBB45 /* Products */,
+				346835E4AA41E8B60D796C64 /* Pods */,
+				E9B7350B78BF9A79A52C980F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24E6705227133D44008DBB45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E6705127133D44008DBB45 /* CouldNotFindSnapKitError.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E6705327133D44008DBB45 /* CouldNotFindSnapKitError */ = {
+			isa = PBXGroup;
+			children = (
+				24E6705427133D44008DBB45 /* AppDelegate.swift */,
+				24E6705627133D44008DBB45 /* SceneDelegate.swift */,
+				24E6705827133D44008DBB45 /* ViewController.swift */,
+				24E6705A27133D44008DBB45 /* Main.storyboard */,
+				24E6705D27133D45008DBB45 /* Assets.xcassets */,
+				24E6705F27133D45008DBB45 /* LaunchScreen.storyboard */,
+				24E6706227133D45008DBB45 /* Info.plist */,
+			);
+			path = CouldNotFindSnapKitError;
+			sourceTree = "<group>";
+		};
+		346835E4AA41E8B60D796C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAD245A6BBE1F0CFBEC9D198 /* Pods-CouldNotFindSnapKitError.debug.xcconfig */,
+				47D13641F7E28CE7F4B1C374 /* Pods-CouldNotFindSnapKitError.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9B7350B78BF9A79A52C980F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43DFFFA7B3CC4BF26CD8B80D /* Pods_CouldNotFindSnapKitError.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E6705027133D44008DBB45 /* CouldNotFindSnapKitError */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E6706527133D45008DBB45 /* Build configuration list for PBXNativeTarget "CouldNotFindSnapKitError" */;
+			buildPhases = (
+				64D330E51FD93B61400E809D /* [CP] Check Pods Manifest.lock */,
+				24E6704D27133D44008DBB45 /* Sources */,
+				24E6704E27133D44008DBB45 /* Frameworks */,
+				24E6704F27133D44008DBB45 /* Resources */,
+				F077F50B5D7B112C30CB16C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouldNotFindSnapKitError;
+			packageProductDependencies = (
+				24E6706927133D6B008DBB45 /* SnapKit */,
+			);
+			productName = CouldNotFindSnapKitError;
+			productReference = 24E6705127133D44008DBB45 /* CouldNotFindSnapKitError.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E6704927133D44008DBB45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					24E6705027133D44008DBB45 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 24E6704C27133D44008DBB45 /* Build configuration list for PBXProject "CouldNotFindSnapKitError" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24E6704827133D44008DBB45;
+			packageReferences = (
+				24E6706827133D6B008DBB45 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 24E6705227133D44008DBB45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E6705027133D44008DBB45 /* CouldNotFindSnapKitError */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E6704F27133D44008DBB45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E6706127133D45008DBB45 /* LaunchScreen.storyboard in Resources */,
+				24E6705E27133D45008DBB45 /* Assets.xcassets in Resources */,
+				24E6705C27133D44008DBB45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64D330E51FD93B61400E809D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CouldNotFindSnapKitError-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F077F50B5D7B112C30CB16C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CouldNotFindSnapKitError/Pods-CouldNotFindSnapKitError-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CouldNotFindSnapKitError/Pods-CouldNotFindSnapKitError-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CouldNotFindSnapKitError/Pods-CouldNotFindSnapKitError-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E6704D27133D44008DBB45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E6705927133D44008DBB45 /* ViewController.swift in Sources */,
+				24E6705527133D44008DBB45 /* AppDelegate.swift in Sources */,
+				24E6705727133D44008DBB45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24E6705A27133D44008DBB45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E6705B27133D44008DBB45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24E6705F27133D45008DBB45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E6706027133D45008DBB45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24E6706327133D45008DBB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24E6706427133D45008DBB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24E6706627133D45008DBB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD245A6BBE1F0CFBEC9D198 /* Pods-CouldNotFindSnapKitError.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7ATB2ZBVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CouldNotFindSnapKitError/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebelinski.CouldNotFindSnapKitError;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24E6706727133D45008DBB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D13641F7E28CE7F4B1C374 /* Pods-CouldNotFindSnapKitError.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7ATB2ZBVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CouldNotFindSnapKitError/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebelinski.CouldNotFindSnapKitError;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E6704C27133D44008DBB45 /* Build configuration list for PBXProject "CouldNotFindSnapKitError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E6706327133D45008DBB45 /* Debug */,
+				24E6706427133D45008DBB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E6706527133D45008DBB45 /* Build configuration list for PBXNativeTarget "CouldNotFindSnapKitError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E6706627133D45008DBB45 /* Debug */,
+				24E6706727133D45008DBB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24E6706827133D6B008DBB45 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24E6706927133D6B008DBB45 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24E6706827133D6B008DBB45 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 24E6704927133D44008DBB45 /* Project object */;
+}
